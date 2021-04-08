@@ -9,6 +9,7 @@ library(mgm)
 library(arm)
         
 # Read the dataset
+# setwd(...) change with your path
 breast_cancer <- read.csv(file = 'breast_cancer.csv')
 breast_cancer <- breast_cancer[c(10,1,2,3,8)]
         
